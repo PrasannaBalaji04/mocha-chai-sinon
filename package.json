@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
-    "test": "mocha --require ts-node/register __test__/**/*.test.ts"
+    "test": "mocha --require ts-node/register ./src/files/__test__/*.test.ts"
   },
   "keywords": [],
   "author": "",

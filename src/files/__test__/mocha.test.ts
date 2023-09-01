@@ -1,7 +1,7 @@
 import { expect } from 'chai';
 import sinon from 'sinon';
 import axios from 'axios';
-import { fetchPostByUserId } from '../../src/files/mocha';
+import { fetchPostByUserId } from '../mocha';
 
 describe('fetchPostByUserId', () => {
     it('should fetch a post by user ID successfully', async () => {

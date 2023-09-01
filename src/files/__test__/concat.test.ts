@@ -1,4 +1,4 @@
-import concat from "../../src/files/concat";
+import concat from "../concat";
 import { expect } from 'chai';
 import * as sinon from 'sinon';
 import mocha from 'mocha';
